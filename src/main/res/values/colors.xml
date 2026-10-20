@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="lightPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorPink">#E21371</color>
+    <color name="lightPink">#E42A7F</color>
+
+    <color name="green">#4CAF50</color>
+    <color name="lighgreen2">#81C784</color>
+    <color name="greenlight">#C8E6C9</color>
+    <color name="lightGreen">#24AE24</color>
+    <color name="yellowDark">#FF6F00</color>
+    <color name="darkgreen">#009688</color>
+    <color name="green2">#1B5E20</color>
+    <color name="orange">#FF3D00</color>
+    <color name="purple">#9C27B0</color>
+    <color name="lightpurple">#BA68C8</color>
+    <color name="lightBlue">#E1F5FE</color>
+
+
+
+    <color name="seaGreen">#00ECFF</color>
+    <color name="mehndiiclr">#1D383A</color>
+    <color name="graydark">#37464f</color>
+    <color name="black">#000202</color>
+    <color name="blue">#0000B3</color>
+    <color name="blue2">#0000ff</color>
+
+
+    <color name="seaBlue">#00a5e6</color>
+    <color name="sealightBlue">#00b7ff</color>
+    <color name="purpal">#e600a5</color>
+    <color name="lightgreen">#a5e600</color>
+
+
+    <color name="pDark">#1faa00</color>
+    <color name="pLight">#64dd17</color>
+    <color name="yLight">#ffff00</color>
+
+    <color name="greenlightone">#00FF00</color>
+
+    <color name="white">#FFFFFF</color>
+
+
+    <color name="colorBlackone">#000000</color>
+    <color name="colorBlacktwo">#262626</color>
+    <color name="colorBlackthree">#4C4C4C</color>
+
+
+
+    <color name="colorRedone">#ff0000</color>
+    <color name="colorRedtwo">#ff3333</color>
+    <color name="colorRedthree">#ff4747</color>
+
+    <color name="colorGreentwo">#00B300</color>
+    <color name="colorGreenone">#006600</color>
+    <color name="colorGreenthree">#26FF26</color>
+    <color name="colorgreenlight">#cce5cc</color>
+
+    <color name="colorblueone">#0095ff</color>
+    <color name="colorbluetwo">#b2e4f7</color>
+
+    <color name="colororange">#ff3333</color>
+
+
+
+
+
+
+
+
+
+</resources>

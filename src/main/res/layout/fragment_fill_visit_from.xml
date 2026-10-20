@@ -1,0 +1,206 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pphiepi.pphipfp.FillVisitFromFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right">
+
+
+                <Button
+                    android:id="@+id/btnCamera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Camera"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/rounddarkblack"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:paddingTop="10dp"
+                    android:visibility="invisible"
+                    android:drawableLeft="@drawable/camerawhite"/>
+
+
+
+                    <Button
+                        android:id="@+id/btnCancel"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:layout_marginLeft="6dp"
+                        android:background="@color/white"
+                        android:textColor="@color/white"
+                        android:drawableRight="@drawable/cross"
+                        android:paddingBottom="15dp"
+                        android:paddingRight="10dp"
+                        android:textStyle="bold" />
+
+
+
+                </LinearLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+
+                    android:gravity="center_horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvCat"
+                    android:layout_gravity="center"
+                    android:background="@drawable/roundborder"
+                    android:textSize="24dp"
+                    android:text=""
+                    android:textColor="@color/green"
+                    />
+                <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tvQuestion"
+                            android:textSize="22dp"
+                            android:text=""
+                            android:textColor="@color/colorPink"
+                            />
+                    </LinearLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal">
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp">
+
+                                <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical"
+                                        android:id="@+id/rbtn">
+
+                                </RadioGroup>
+                            </android.support.design.widget.TextInputLayout>
+                    </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Please mark to enter employee code"
+                    android:id="@+id/chkhasempCode"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Employee Code"
+                    android:id="@+id/etempCode"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Time and Description"
+                    android:id="@+id/etisLate"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:text=""
+                        android:textColor="#F44336"
+                        android:id="@+id/tvMsg"/>
+
+
+                </LinearLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal|bottom"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginBottom="20dp"
+                    >
+
+                    <Button
+                        android:id="@+id/btnPrevious"
+                        android:layout_width="155dp"
+                        android:layout_height="wrap_content"
+                        android:text="Previous"
+                        android:background="@drawable/roundblue"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:paddingTop="10dp"
+                        android:drawableLeft="@drawable/bb"/>
+                <Button
+                    android:id="@+id/btnSubmit"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content"
+                    android:text="Submit"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/roundpink"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:paddingTop="10dp"
+                    android:visibility="gone"
+                    android:drawableLeft="@drawable/submitwhite" />
+                    <Button
+                        android:id="@+id/btnNext"
+                        android:layout_width="155dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:text="Next"
+                        android:background="@drawable/roundblue"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:paddingTop="10dp"
+                        android:drawableRight="@drawable/ff"/>
+
+
+
+
+                </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

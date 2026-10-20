@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pphisindh.pphipfp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/momicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:usesCleartextTraffic="true"
+        >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DownloadDataActivity"
+            android:label="@string/title_activity_download_data"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SelectionActivity"
+            android:label="@string/title_activity_selection"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegisterVisitActivity"
+            android:label="@string/title_activity_register_visit"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name=".BGGPSService"
+            android:exported="false" />
+
+        <activity
+            android:name=".ViewVisitsActivity"
+            android:label="@string/title_activity_view_visits"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UploadDataActivity"
+            android:label="@string/title_activity_upload_data"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActivatevisitActivity"
+            android:label="@string/title_activity_activatevisit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VisithfActivity"
+            android:label="@string/title_activity_visithf"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

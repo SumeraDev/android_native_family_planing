@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pphiepi.pphipfp.attendanceFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="616dp"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TableLayout
+                android:id="@+id/tblTop10List"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="1dp"
+                android:stretchColumns="*" >
+
+                <TableRow
+                    android:id="@+id/tableRow15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="1" >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textSize="30dp"
+                        android:textColor="@color/lightPink"
+                        android:text="MARK ABSENTEE" />
+
+
+                </TableRow>
+
+
+
+
+                <TableRow
+                    android:id="@+id/tableRow13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="1" >
+
+                    <GridView
+                        android:numColumns="auto_fit"
+                        android:gravity="center"
+                        android:columnWidth="200dp"
+                        android:stretchMode="columnWidth"
+                        android:layout_width="fill_parent"
+                        android:id="@+id/gridEmp"
+                        />
+                </TableRow>
+
+
+
+
+                <TableRow
+                    android:id="@+id/tableRow12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1" >
+                    <Button
+                        android:id="@+id/btnGo"
+                        android:layout_width="147dp"
+                        android:layout_height="wrap_content"
+                        android:text="GO"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/white"
+                        android:background="@drawable/roundblue"
+                        android:paddingTop="10dp"
+                        android:textSize="25dp"
+                        android:drawableLeft="@drawable/submitwhite"
+                        android:textStyle="bold" />
+                </TableRow>
+
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

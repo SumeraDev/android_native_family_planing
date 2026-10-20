@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">P4P PPHI Sindh</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_download_data">Download Data</string>
+    <string name="title_activity_login">P4P PPHI Sindh</string>
+    <string name="title_activity_selection">SelectionActivity</string>
+    <string name="title_activity_register_visit">RegisterVisitActivity</string>
+    <string name="title_activity_view_visits">ViewVisitsActivity</string>
+    <string name="title_activity_upload_data">UploadDataActivity</string>
+    <string name="title_activity_activatevisit">Activate Visits</string>
+    <string name="title_activity_visithf">VisithfActivity</string>
+</resources>

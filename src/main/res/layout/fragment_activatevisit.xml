@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pphiepi.pphipfp.ActivatevisitFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/eteimi"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:textSize="20dp"
+            android:visibility="visible"
+            android:layout_marginBottom="30dp"
+            android:hint="Activate Date Wise Visits"
+            />
+
+
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:inputType="date"
+            android:hint="ENTER DATE"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+
+        android:gravity="center_horizontal">
+
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundblue"
+            android:text="Activate Visits"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:paddingTop="10dp"
+            android:drawableLeft="@drawable/loginnn"/>
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundpink"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:paddingTop="10dp"
+            android:drawableLeft="@drawable/crosss"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:text="Alert"
+            android:textColor="#F44336"
+            android:id="@+id/tvMsg"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
